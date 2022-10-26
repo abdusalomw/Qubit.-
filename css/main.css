@@ -116,3 +116,17 @@ header {
     background-color: #6F2CFF;
     color: white;
 }
+
+/* SALE SECTION  */
+
+.sale {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+}
+.brands {
+    display: flex;
+}
+.brands a:not(:first-child) {
+    margin-left: 59px;
+}
