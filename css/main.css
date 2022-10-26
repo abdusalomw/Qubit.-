@@ -130,3 +130,61 @@ header {
 .brands a:not(:first-child) {
     margin-left: 59px;
 }
+
+/* GROW SECTION */
+
+.grow {
+    width: 1440px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.left-box {
+    margin-right: auto;
+    margin-left: auto;
+    width: 620px;
+}
+.left-box h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 67px;
+    color: #1C1C1C;
+}
+.right-box {
+    display: flex;
+    flex-wrap: wrap ;
+    margin-right: auto;
+    margin-left: auto;
+    width: 620px;
+}
+.grow-items {
+    width: 310px;
+    padding-bottom: 100px;
+}
+.grow-items h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0;
+    line-height: 45px;
+    color: #000000;
+}
+.grow-items p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+.grow-login {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.grow-login a {
+    border-bottom: 1px solid #6F2CFF;
+}
