@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 a,li {
     list-style: none;
     text-decoration: none;
@@ -13,6 +21,7 @@ header {
     width: 1440px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 20px;
 }
 .header-head {
     display: flex;
@@ -157,11 +166,12 @@ header {
     flex-wrap: wrap ;
     margin-right: auto;
     margin-left: auto;
-    width: 620px;
+    width: 640px;
 }
 .grow-items {
     width: 310px;
     padding-bottom: 100px;
+    
 }
 .grow-items h2 {
     font-family: 'Roboto';
@@ -187,4 +197,95 @@ header {
 }
 .grow-login a {
     border-bottom: 1px solid #6F2CFF;
+}
+
+/* SECTION COMERASE */
+
+.comerase {
+    display: inline;
+    width: 1440px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comer-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #000000;
+}
+.comer-p {
+    margin-bottom: 70px;
+}
+.comer-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 100px;
+}
+.comer-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+    height: 194px;
+}
+.comer-box h2{
+    margin-top: 20px;
+}
+.comer-box p {
+    text-align: center;
+}
+
+/* POWER SECTION */
+.power {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 1440px;
+}
+.power-main img {
+    padding-top: 90px;
+    border-radius: 20px;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+.product_ {
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    border-radius: 28px;
+    margin-right: 22px;
+    background-color: #6F2CFF;
+    color: white;
+}
+.demo {
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    border-radius: 28px;
+    background-color: rgb(230, 222, 222);
+    color: #000000;
 }
