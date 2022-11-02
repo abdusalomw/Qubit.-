@@ -289,3 +289,224 @@ header {
     background-color: rgb(230, 222, 222);
     color: #000000;
 }
+
+/* PRODUCT SECTION */
+.product {
+    display: block; 
+    width: 1440px;
+    text-align: center;
+}
+.product-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product-box {
+    width: 450px;
+}
+
+/* BRAND SECTION */
+
+.brand {
+    display: block;
+    width: 1440px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(238, 231, 231);
+}
+.brand-h2 {
+    padding-top: 88px;
+}
+.brand-items {
+    display: flex;
+    align-items: center;
+    background-color: rgb(238, 231, 231);
+    padding-bottom: 100px;
+}
+.brand-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+.first {
+    margin-left: 150px;
+}
+.brand-box:not(:first-child){
+    margin-left: 40px;
+}
+
+/* SPECIAL SECTION */
+.special {
+    display: block;
+    width: 1440px;
+}
+.spec-h2  {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+}
+.spec-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+}
+.spec-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.head {
+    display: flex;
+    align-items: center;
+}
+.head img {
+    margin-right: 20px;
+}
+.head h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.spec-box {
+    width: 460px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 8px 10px 10px 8px;
+    background-color: #17002E;
+    color: #FFFFFF;
+}
+
+/* CONNECT SECTION */
+.connect {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+}
+.connect-items {
+    margin-right: 85px;
+    margin-left: 150px;
+}
+.connect-items h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #17002E;
+}
+.connect-items p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    margin-top: 47px;
+    margin-bottom: 74px;
+    color: #000000;
+}
+.connect-button {
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #6F2CFF;
+} 
+
+/* BOOK SECTION  */
+
+.book {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/Orqafon.png);
+}
+.book h2 {
+    padding-top: 93px;
+}
+.book-login {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.book-login input {
+    width: 268px;
+    height: 45px;
+    border: 1px solid gray;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background-color:#FFFFFF;
+    border-radius: 27.5px 0px 0px 27.5px;
+}
+.book-login button {
+    width: 187px;
+    height: 45px;
+    background-color: #6F2CFF;
+    color: #fff;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 0px 27.5px 27.5px 0px;
+}
+
+/* USER SECTION */
+
+.user {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.user p {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.user-connect {
+    display: flex;
+    padding-bottom: 40px;
+}
+.user-connect a:not(:first-child) {
+    margin-left: 30px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #20003C;
+}
+footer li {
+    color: rgb(219, 219, 219);
+}
+.nav-items {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px
+
+}
+footer img {
+    margin-top: 100px;
+}
+.li {
+    color: #FFF;
+}
